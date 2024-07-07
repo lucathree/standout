@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "standout"
+version = "0.1.0"
+description = ""
+authors = ["Changmin Lucas Lee <clee0627@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.1"
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
